@@ -17,7 +17,7 @@ export default Card
 
 const styles = StyleSheet.create({
     box: {
-        backgroundColor: "#B0A19D",
+        backgroundColor: "#D5D5D5",
         margin: 10,
         padding: 20,
         width: 300,
