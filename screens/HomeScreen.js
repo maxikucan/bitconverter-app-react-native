@@ -1,5 +1,5 @@
-import { View, Text, StyleSheet, Button, TouchableOpacity } from "react-native"
-import { useNavigation } from "@react-navigation/native"
+import { View, Text, StyleSheet, Button, TouchableOpacity } from "react-native";
+import { useNavigation } from "@react-navigation/native";
 
 export default function HomeScreen() {
 
@@ -23,33 +23,6 @@ const styles = StyleSheet.create({
         justifyContent: "space-around",
         alignItems: "center",
         backgroundColor: '#fff'
-    },
-    containerDark: {
-        backgroundColor: '#000'
-    },
-    buttonDark: {
-        backgroundColor: '#000',
-        height: 30,
-        width: 100,
-        margin: 40,
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 8,
-    },
-    buttonLight: {
-        backgroundColor: '#fff',
-        height: 30,
-        width: 100,
-        margin: 40,
-        justifyContent: 'center',
-        alignItems: 'center',
-        borderRadius: 8,
-    },
-    buttonLightText: {
-        color: '#000'
-    },
-    buttonDarkText: {
-        color: '#fff'
     },
     title: {
         fontSize: 24,

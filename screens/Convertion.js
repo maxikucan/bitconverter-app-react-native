@@ -1,9 +1,9 @@
-import { View, StyleSheet, Button } from "react-native"
-import { useState } from "react"
-import Card from "../components/Card"
-import SelectDropdown from "react-native-select-dropdown"
-import { currenciesList, cryptoList } from "../utils/CoinData"
-import { getValues } from "../service/getValues"
+import { View, StyleSheet, Button } from "react-native";
+import { useState } from "react";
+import Card from "../components/Card";
+import SelectDropdown from "react-native-select-dropdown";
+import { currenciesList, cryptoList } from "../utils/CoinData";
+import { getValues } from "../service/getValues";
 
 export default function Convertion() {
     const [data, setData] = useState(null);

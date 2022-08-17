@@ -4,6 +4,6 @@ export const getValues = async(crypto, currency) =>{
         const data = await values.json();
         return data;
     } catch (error) {
-        console.log(error)
+        console.log(error);
     }
 }
