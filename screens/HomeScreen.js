@@ -1,6 +1,5 @@
 import { View, Text, StyleSheet, Button, TouchableOpacity } from "react-native"
 import { useNavigation } from "@react-navigation/native"
-import { useState } from "react";
 
 export default function HomeScreen() {
 
@@ -13,12 +12,6 @@ export default function HomeScreen() {
             </View>
             <View>
                 <Button title="Convert" onPress={() => navigation.navigate("Convertion")} />
-
-                {/* <TouchableOpacity style={styles.buttonDark}>
-                    <Text style={styles.buttonDarkText}>
-                        Dark Mode
-                    </Text>
-                </TouchableOpacity>  */}
             </View>
         </View>
     )
