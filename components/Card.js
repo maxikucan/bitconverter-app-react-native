@@ -3,7 +3,7 @@ import { StyleSheet, View, Text } from "react-native"
 const Card = ({ data, isLoading }) => {
     return (
         <View style={styles.box}>
-            <Text>Crypto Currency: </Text>
+            <Text>Selected Crypto: </Text>
             <Text style={styles.text}>{isLoading ? 'Searching...' : data?.asset_id_base}</Text>
             <Text>Selected Currency: </Text>
             <Text style={styles.text}>{isLoading ? 'Searching...' : data?.asset_id_quote}</Text>
